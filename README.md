@@ -3,7 +3,7 @@
 ## Project setup
 ```
 npm install
-uui install
+npm i uuid
 ```
 
 ### Compiles and hot-reloads for development
