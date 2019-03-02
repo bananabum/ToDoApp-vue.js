@@ -38,6 +38,9 @@ export default {
     removeTodo(num) {
       this.todos.splice(this.todos.indexOf(num), 1);
       this.num--;
+      if(this.num < 0) {
+        this.num = 0;
+      }
     },
     clearTodo() {
       this.num = 0;
